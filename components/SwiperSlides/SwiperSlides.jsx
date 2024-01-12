@@ -23,7 +23,7 @@ const SwiperSlides = ({imgProyects}) => {
             imgProyects.map((item) => (
               <SwiperSlide key={item.id} className='w-full relative'>
               <img src={item.img} alt={item.name} className='w-full h-[300px] lg:h-[600px] object-cover'/>
-              {item.quote && <span className='lg:text-2xl text-xl rounded-md text-grayish absolute bottom-[125px] lg:bottom-[300px] left-[50px] p-4 lg:left-[350px] flex justify-center items-center lg:w-1/2 w-3/4 text-center font-bold text-inter bg-white'>{item.quote}</span>}
+              {item.quote && <span className='lg:text-2xl text-xl rounded-md text-grayish absolute bottom-[125px] lg:bottom-[300px] left-[50px] p-4 lg:left-[375px] flex justify-center items-center lg:w-1/2 w-3/4 text-center font-bold text-inter bg-white'>{item.quote}</span>}
           </SwiperSlide>
             ))
         }

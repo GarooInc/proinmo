@@ -6,10 +6,10 @@ import { Link } from "react-scroll"
 
 
 const navigation = [
-  { name: 'Home', href: '/' },
-  { name: 'Acerca', href: '/about' },
-  { name: 'Proyectos', href: '/projects' },
+  { name: ' Proyectos', href: '/projects' },
+  { name: 'Quiénes somos', href: '/about' },
   { name: 'Contacto', href: '/contact' },
+  { name: 'Nuestro blog', href: '/blog' },
 ]
 
 const NavBar = () => {
@@ -36,10 +36,10 @@ const NavBar = () => {
               />
             </a>
           </div>
-          <div className="hidden lg:flex lg:gap-x-20">
+          <div className="hidden lg:flex lg:gap-x-24">
             {fistsubset.map((item) => (
                 <Link key={item.name} to={item.href} spy={true} smooth={true} duration={500} className="text-md leading-6 cursor-pointer p-2 rounded-lg font-inter flex items-center">
-                  <span className="font-inter text-gray-900 hover:text-kaqui font-inter flex items-center"> {item.name} </span>
+                  <span className=" uppercase font-inter text-grayish hover:text-kaqui font-inter flex items-center"> {item.name} </span>
                 </Link>
             ))}
             <a href="/" className="-m-1.5 p-0">
@@ -51,7 +51,7 @@ const NavBar = () => {
             </a>
           {secondsubset.map((item) => (
                 <Link key={item.name} to={item.href} spy={true} smooth={true} duration={500} className="text-md leading-6 cursor-pointer p-2 rounded-lg font-inter flex items-center">
-                    <span className="font-inter text-gray-900 hover:text-kaqui font-inter flex items-center"> {item.name} </span>
+                    <span className=" uppercase font-inter text-grayish hover:text-kaqui font-inter flex items-center"> {item.name} </span>
                 </Link>
             ))}
           </div>
