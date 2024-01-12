@@ -1,5 +1,10 @@
 import SwiperSlides from "@/components/SwiperSlides/SwiperSlides";
 import Image from "next/image";
+import projects from "@/projects";
+import ProjectItem from "@/components/ProjectItem/ProjectItem";
+import ButtonDark from "@/components/ButtonDark/ButtonDark";
+import Tittle from "@/components/Tittle/Tittle";
+import Footer from "@/components/Footer/Footer";
 
 const PrincipalPage = () => {
 
@@ -19,22 +24,35 @@ const PrincipalPage = () => {
   ]
 
   return (
-    <div className="w-full isolate px-8 pt-20 lg:px-10">
+    <div className="w-full isolate pt-20">
         <section id='/' className="w-full relative mt-6">
           <SwiperSlides imgProyects={imgHome} />
         </section>
-        <section id='/about' className="w-full relative py-10">
-          <div className="w-full flex flex-col justify-center text-center items-center">
-            <Image src="/assets/images/fulllogo01.png" width={200} height={200} />
-            <span className="text-2xl text-kaqui lg:w-4/5">En Proinmo, creemos en la magia de transformar sueños en realidades tangibles. Como una empresa líder en el sector inmobiliario, nos dedicamos a convertir las ideas y aspiraciones de nuestros clientes en propiedades concretas. Nuestra pasión reside en la creación de espacios que no solo satisfacen necesidades, sino que también inspiran y enriquecen vidas. </span>
-          </div>
-        </section>
-        <section id='/projects' className="w-full relative py-10">
-          <h1 className="text-4xl font-bold text-grayish text-center">Nuestros Proyectos</h1>
-        </section>
-        <section id='/contact' className="w-full relative mt-10">
-          <h1 className="text-4xl font-bold text-gray-800">Contact</h1>
-        </section>
+        <div className="px-8 lg:px-10">
+          <section id='/about' className="w-full relative py-10">
+            <div className="w-full flex flex-col justify-center text-center items-center">
+              <Image src="/assets/images/fulllogo01.png" width={200} height={200} />
+              <span className="font-inter text-xl lg:text-2xl text-kaqui lg:w-4/5">En Proinmo, creemos en la magia de transformar sueños en realidades tangibles. Como una empresa líder en el sector inmobiliario, nos dedicamos a convertir las ideas y aspiraciones de nuestros clientes en propiedades concretas. Nuestra pasión reside en la creación de espacios que no solo satisfacen necesidades, sino que también inspiran y enriquecen vidas. </span>
+            </div>
+          </section>
+          <section id='/projects' className="w-full relative py-10">
+            <Tittle title="Proyectos" center color={"#545c5c"}/>
+            <div className="w-full flex flex-col lg:flex-row">
+            {
+              projects.map((project) => (
+                <ProjectItem key={project.title} project={project} />
+              ))
+            }
+            </div>
+          </section>
+          <section id='/contact' className="w-full relative mt-10">
+            <div className="w-full flex flex-col justify-center text-center items-center p-10">
+              <Tittle title="Con Proinmo, tus sueños se convierten en ideas" center color={"#545c5c"}/>
+              <ButtonDark text="Contáctar" />
+            </div>
+          </section>
+          <Footer />
+        </div>
     </div>
 
   );

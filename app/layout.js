@@ -5,7 +5,7 @@ export const metadata = {
     title: 'Proinmo',
     description: 'Ideas que generan proyectos',
     url: 'proinmo.com',
-    image: '/assets/images/biglogo01.png',
+    image: '/assets/images/biglogo03.png',
 }
 
 const RootLayout = ({children}) => {
@@ -13,7 +13,7 @@ const RootLayout = ({children}) => {
     <html lang="es">
         <head>
             <title>{metadata.title}</title>
-            <link rel="icon" type="image/png+xml" href="/assets/images/Favicon.png" />
+            <link rel="icon" type="image/png+xml" href="/assets/images/biglogo03.png" />
             <meta name="description" content={metadata.description} />
             <meta name="viewport" content="width=device-width, initial-scale=1.0" />
             <meta property="og:title" content={metadata.title} />
