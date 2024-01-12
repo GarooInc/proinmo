@@ -46,7 +46,7 @@ const PrincipalPage = () => {
             </div>
           </section>
           <section id='/contact' className="w-full relative mt-10">
-            <div className="w-full flex flex-col justify-center text-center items-center p-10">
+            <div className="w-full flex flex-col justify-center text-center items-center p-10 gap-4">
               <Tittle title="Con Proinmo, tus sueños se convierten en ideas" center color={"#545c5c"}/>
               <ButtonDark text="Contáctar" />
             </div>
