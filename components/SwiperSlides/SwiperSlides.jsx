@@ -21,9 +21,10 @@ const SwiperSlides = ({imgProyects}) => {
       >
         {
             imgProyects.map((item) => (
-                <SwiperSlide key={item.id} className='w-full'>
-                    <img src={item.img} alt={item.name} className='w-full h-[300px] lg:h-[600px] object-cover'/>
-                </SwiperSlide>
+              <SwiperSlide key={item.id} className='w-full relative'>
+              <img src={item.img} alt={item.name} className='w-full h-[300px] lg:h-[600px] object-cover'/>
+              <span className='lg:text-2xl text-xl rounded-md text-grayish absolute bottom-[125px] lg:bottom-[300px] left-[100px] p-4 lg:left-[350px] flex justify-center items-center w-1/2 text-center font-bold text-inter bg-white'>{item.quote}</span>
+          </SwiperSlide>
             ))
         }
 

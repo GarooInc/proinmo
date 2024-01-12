@@ -11,14 +11,19 @@ const PrincipalPage = () => {
   const imgHome = [
     {
       id: 1,
-      img: '/assets/imagesHome/1.png',
+      img: '/assets/imagesHome/5.png',
+      quote: 'Ideas que generan proyectos...',
     },
     {
       id: 2,
-      img: '/assets/imagesHome/2.png',
+      img: '/assets/imagesHome/1.png',
     },
     {
       id: 3,
+      img: '/assets/imagesHome/2.png',
+    },
+    {
+      id: 4,
       img: '/assets/imagesHome/3.png',
     }
   ]
