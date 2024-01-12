@@ -56,7 +56,6 @@ const PrincipalPage = () => {
               <ButtonDark text="Contáctar" />
             </div>
           </section>
-          <Footer />
         </div>
     </div>
 
