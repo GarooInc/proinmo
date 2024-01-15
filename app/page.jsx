@@ -42,7 +42,7 @@ const PrincipalPage = () => {
           </section>
           <section id='/projects' className="w-full relative py-10">
             <Tittle title="Proyectos" center color={"#545c5c"}/>
-            <div className="w-full flex flex-col lg:flex-row">
+            <div className="w-full flex flex-col lg:flex-row flex-wrap justify-center items-center">
             {
               projects.map((project) => (
                 <ProjectItem key={project.title} project={project} />
