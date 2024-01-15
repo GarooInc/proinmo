@@ -11,11 +11,11 @@ const ContactItem = ({name, number, mail}) => {
                     <h1 className="font-inter text-xl lg:text-2xl font-bold text-center mt-4 mb-2">{name}</h1>
                     <div className="w-full flex flex-row items-start justify-start ">
                         <FaPhoneAlt className="text-kaqui" />
-                        <a href={`tel:${number}`} className=" cursor-pointer font-inter rounded-md lg:px-8 text-sm font-semibold text-grayish" >{number}</a>
+                        <a href={`tel:${number}`} className=" cursor-pointer font-inter rounded-md px-4 lg:px-8 text-sm font-semibold text-grayish" >{number}</a>
                     </div>
                     <div className="w-full flex flex-row items-start justify-start">
                         <IoMdMailOpen className="text-kaqui" />
-                        <a href={`mailto:${mail}`} className=" cursor-pointer font-inter rounded-md lg:px-8 text-sm font-semibold text-grayish" >{mail}</a>
+                        <a href={`mailto:${mail}`} className=" cursor-pointer font-inter rounded-md px-4 lg:px-8 text-sm font-semibold text-grayish" >{mail}</a>
                     </div>
                 </div>
         </div>
