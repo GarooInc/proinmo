@@ -1,8 +1,8 @@
 "use client";
 import React from 'react'
 import projects from '@/projects'
-import Image from 'next/image'
 import { useEffect, useState } from 'react';
+import NavBarSecond from '@/components/NavBarSecond/NavBarSecond';
 
 const ProjectDetails = ({ params }) => {
   const [data, setData] = useState([]);
@@ -27,12 +27,13 @@ const ProjectDetails = ({ params }) => {
 
   return (
     <div className='flex flex-col'>
+      <NavBarSecond />
     { data && (
       <div className='flex flex-col justify-center w-full px-8 lg:px-10 pt-20 lg:pt-40'>
       <h1 className='uppercase font-inter text-xl lg:text-2xl font-bold text-center mt-4 mb-2 text-grayish'>{project.title}</h1>
       <p className='font-inter text-lg text-grayish text-center p-4'>{project.longdescription}</p>
       {data.map((image) => (
-        <img src={image} alt={project.title} className='w-full my-4 h-full rounded-lg object-cover' width={800} height={500} key={image} />
+        <img src={image} alt={project.title} className='w-full my-4 h-full rounded-lg object-cover' key={image} />
       ))}
     </div>
     )

@@ -2,9 +2,9 @@ import SwiperSlides from "@/components/SwiperSlides/SwiperSlides";
 import Image from "next/image";
 import projects from "@/projects";
 import ProjectItem from "@/components/ProjectItem/ProjectItem";
-import ButtonDark from "@/components/ButtonDark/ButtonDark";
 import Tittle from "@/components/Tittle/Tittle";
 import ContactItem from "@/components/ContactItem/ContactItem";
+import NavBar from "@/components/NavBar/NavBar";
 
 const PrincipalPage = () => {
 
@@ -30,6 +30,7 @@ const PrincipalPage = () => {
 
   return (
     <div className="w-full isolate pt-20">
+      <NavBar />
         <section id='/' className="w-full relative mt-6">
           <SwiperSlides imgProyects={imgHome} />
         </section>
@@ -53,7 +54,7 @@ const PrincipalPage = () => {
           <section id='/contact' className="w-full relative mt-10">
             <div className="w-full flex flex-col justify-center text-center items-center p-10 gap-4">
               <Tittle title="Con Proinmo, tus sueños se convierten en ideas" center color={"#545c5c"}/>
-              <div className="w-full flex justify-center items-center">
+              <div className="w-full flex flex-col lg:flex-row justify-center items-center gap-4">
                 <ContactItem name="Clara Irving Bell" number="50005536" mail="clara@proinmo502.com" />
                 <ContactItem name="Catherine Irving Bell" number="30152080" mail="catherine@proinmo502.com " />
               </div>

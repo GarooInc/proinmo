@@ -5,7 +5,7 @@ import { IoMdMailOpen } from "react-icons/io";
 
 const ContactItem = ({name, number, mail}) => {
   return (
-    <div className="glassmorphism lg:w-1/4 m-2">
+    <div className="w-full m-2 rounded-md shadow-lg p-4">
         <div className="flex flex-col items-center justify-center">
                 <div className="flex flex-col items-center justify-between gap-4">
                     <h1 className="font-inter text-xl lg:text-2xl font-bold text-center mt-4 mb-2">{name}</h1>
