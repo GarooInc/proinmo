@@ -47,7 +47,7 @@ const PrincipalPage = () => {
           </section>
           <section id='/about' className="w-full relative py-10">
             <div className="w-full flex flex-col justify-center text-center items-center">
-              <Image src="/assets/images/fulllogo01.png" width={200} height={200} />
+              <Image src="/assets/images/fulllogo01.png" width={200} height={200} alt="logo" />
               <span className="font-inter text-xl lg:text-2xl text-kaqui lg:w-4/5">En Proinmo, creemos en la magia de transformar sueños en realidades tangibles. Como una empresa líder en el sector inmobiliario, nos dedicamos a convertir las ideas y aspiraciones de nuestros clientes en propiedades concretas. Nuestra pasión reside en la creación de espacios que no solo satisfacen necesidades, sino que también inspiran y enriquecen vidas. </span>
             </div>
           </section>

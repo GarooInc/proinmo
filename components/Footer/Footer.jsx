@@ -13,7 +13,7 @@ const Footer = () => {
             <div className="flex justify-center items-center p-8">
             <Image
                 src="/assets/images/biglogo01.png"
-                alt="Picture of the author"
+                alt="logo"
                 width={100}
                 height={100}
                 className='object-cover'
