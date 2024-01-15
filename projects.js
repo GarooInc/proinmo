@@ -29,7 +29,7 @@ const projects = [
         id : "4",
         title: "Caes fase 2 y 3 ",
         description: "Ecosistema logístico de carretera al salvador.",
-        image: "/assets/imagesHome/3.png",
+        image: "/assets/imagesHome/4.png",
         longdescription :``,
         folder : "4"
     },
@@ -37,7 +37,7 @@ const projects = [
         id : "5",
         title: "Industrial campestre bodegas",
         description: "Complejo de oficinas de alta tecnología.",
-        image: "/assets/imagesHome/3.png",
+        image: "/assets/imagesHome/5.png",
         longdescription :``,
         folder : "5"
     },
@@ -45,7 +45,7 @@ const projects = [
         id : "6",
         title: "Industrial campestre 2",
         description: "Complejo de oficinas de alta tecnología.",
-        image: "/assets/imagesHome/3.png",
+        image: "/assets/imagesHome/6.png",
         longdescription :``,
         folder : "6"
     },
@@ -53,7 +53,7 @@ const projects = [
         id : "7",
         title: "Industrial amatitlan",
         description: "Complejo de oficinas de alta tecnología.",
-        image: "/assets/imagesHome/3.png",
+        image: "/assets/imagesHome/7.png",
         longdescription :``,
         folder : "7"
     },
@@ -61,7 +61,7 @@ const projects = [
         id : "8",
         title: "Industrial Naranjo",
         description: "Complejo de oficinas de alta tecnología.",
-        image: "/assets/imagesHome/3.png",
+        image: "/assets/imagesHome/8.png",
         longdescription :``,
         folder : "8"
     },
@@ -69,7 +69,7 @@ const projects = [
         id : "9",
         title: "Industrial Palín",
         description: "Complejo de oficinas de alta tecnología.",
-        image: "/assets/imagesHome/3.png",
+        image: "/assets/imagesHome/9.png",
         longdescription :``,
         folder : "9"
     },
@@ -77,7 +77,7 @@ const projects = [
         id : "10",
         title: "Industrial Campestre comercial",
         description: "Complejo de oficinas de alta tecnología.",
-        image: "/assets/imagesHome/3.png",
+        image: "/assets/imagesHome/10.png",
         longdescription :``,
         folder : "10"
     },
@@ -85,7 +85,7 @@ const projects = [
         id : "11",
         title: "Las tunas ofibodegas",
         description: "Complejo de oficinas de alta tecnología.",
-        image: "/assets/imagesHome/3.png",
+        image: "/assets/imagesHome/11.png",
         longdescription :``,
         folder : "11"
     },
@@ -93,7 +93,7 @@ const projects = [
         id : "12",
         title: "Logística Naranjo ",
         description: "Complejo de oficinas de alta tecnología.",
-        image: "/assets/imagesHome/3.png",
+        image: "/assets/imagesHome/12.png",
         longdescription :``,
         folder : "12"
     },
@@ -101,7 +101,7 @@ const projects = [
         id : "13",
         title: "Logística Santa Elena ",
         description: "Complejo de oficinas de alta tecnología.",
-        image: "/assets/imagesHome/3.png",
+        image: "/assets/imagesHome/13.png",
         longdescription :``,
         folder : "13"
     },
@@ -109,7 +109,7 @@ const projects = [
         id : "14",
         title: "Trayectoria Idea Central",
         description: "Complejo de oficinas de alta tecnología.",
-        image: "/assets/imagesHome/3.png",
+        image: "/assets/imagesHome/14.png",
         longdescription :``,
         folder : "14"
     },
@@ -117,7 +117,7 @@ const projects = [
         id : "15",
         title: "Tunas fase 5,6 y 7",
         description: "Complejo de oficinas de alta tecnología.",
-        image: "/assets/imagesHome/3.png",
+        image: "/assets/imagesHome/15.png",
         longdescription :``,
         folder : "15"
     },
