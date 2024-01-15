@@ -15,7 +15,7 @@ const ProjectDetails = ({ params }) => {
       <h1 className='font-inter text-xl lg:text-2xl font-bold text-start mt-4 mb-2 text-grayish'>{project.title}</h1>
       <Image src={project.image} alt={project.title} className='w-full h-60 rounded-lg object-cover' width={800} height={500} />
       <p className='font-inter text-lg text-grayish text-center lg:text-start m-4'>{project.longdescription}</p>
-      <iframe src={project.link} className='w-full h-auto min-h-[100vh] rounded-md' />
+      <iframe src={project.link} className='lg:w-full h-auto min-h-[100vh] rounded-md' />
     </div>
   )
 }
