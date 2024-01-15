@@ -57,7 +57,6 @@ const PrincipalPage = () => {
                 <ContactItem name="Clara Irving Bell" number="50005536" mail="clara@proinmo502.com" />
                 <ContactItem name="Catherine Irving Bell" number="30152080" mail="catherine@proinmo502.com " />
               </div>
-              <ButtonDark text="Contáctar" />
             </div>
           </section>
           <section id='/blog' className="w-full relative mt-10">
