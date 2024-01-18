@@ -5,8 +5,10 @@ const ButtonDark = ({text, href}) => {
     return(
         <a
             href={href}
-                className="cursor-pointer rounded-md bg-black p-4 px-6 lg:px-8 text-sm font-semibold text-white shadow-sm hover:bg-dark-grayish focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-garoo-sky"
-        >{text}</a>
+                className="cursor-pointer z-10 bg-kaqui px-8 py-4 text-white"
+        >
+            <span className='font-bold text-montserrat'>{text}</span>
+        </a>
     )
 }
 

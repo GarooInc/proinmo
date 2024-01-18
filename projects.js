@@ -35,7 +35,7 @@ const projects = [
     },
     {
         id : "5",
-        title: "Industrial campestre bodegas",
+        title: "Industrial campestre ",
         description: "Complejo de oficinas de alta tecnología.",
         image: "/assets/imagesHome/5.png",
         longdescription :``,
@@ -75,7 +75,7 @@ const projects = [
     },
     {
         id : "10",
-        title: "Industrial Campestre comercial",
+        title: "Industrial Campestre",
         description: "Complejo de oficinas de alta tecnología.",
         image: "/assets/imagesHome/10.png",
         longdescription :``,

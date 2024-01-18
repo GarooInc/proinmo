@@ -1,6 +1,6 @@
 "use client";
 import { useRouter } from "next/navigation";
-import { FaArrowAltCircleRight } from "react-icons/fa";
+import { IoIosArrowForward } from "react-icons/io";
 
 
 const ProjectItem = ({ project }) => {
@@ -11,12 +11,12 @@ const ProjectItem = ({ project }) => {
     };
 
     return (
-        <div className="glassmorphism lg:w-1/4 m-2 h-96 relative">
+        <div className="project_card lg:w-1/4 m-2 h-66 relative w-full">
             <div className="flex flex-col items-center justify-between">
-                <img src={project.image} alt={project.title} className="w-full h-60 rounded-lg object-cover" />
-                <div className="flex flex-col items-center justify-center ">
-                    <h1 className="font-inter text-xl lg:text-2xl font-bold text-center mt-4 mb-2">{project.title}</h1>
-                    <FaArrowAltCircleRight className="text-4xl text-kaqui cursor-pointer absolute bottom-4 right-2" onClick={handleMoreClick} />
+                <img src={project.image} alt={project.title} className="w-full h-60 object-cover" />
+                <div className="flex items-center justify-between w-full p-4">
+                    <h1 className="text-white font-inter text-lg lg:text-lg font-bold text-start">{project.title}</h1>
+                    <IoIosArrowForward className="text-2xl text-white cursor-pointer" onClick={handleMoreClick} />
                 </div>
             </div>
         </div>

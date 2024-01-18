@@ -1,49 +1,36 @@
-import SwiperSlides from "@/components/SwiperSlides/SwiperSlides";
 import Image from "next/image";
 import projects from "@/projects";
 import ProjectItem from "@/components/ProjectItem/ProjectItem";
 import Tittle from "@/components/Tittle/Tittle";
 import ContactItem from "@/components/ContactItem/ContactItem";
 import NavBar from "@/components/NavBar/NavBar";
+import Description from "@/components/Description/Description";
+import ButtonDark from "@/components/ButtonDark/ButtonDark";
 
 const PrincipalPage = () => {
-
-  const imgHome = [
-    {
-      id: 1,
-      img: '/assets/imagesHome/100.png',
-      quote: 'Ideas que generan proyectos...',
-    },
-    {
-      id: 2,
-      img: '/assets/imagesHome/1.png',
-    },
-    {
-      id: 3,
-      img: '/assets/imagesHome/2.png',
-    },
-    {
-      id: 4,
-      img: '/assets/imagesHome/3.png',
-    }
-  ]
 
   return (
     <div className="w-full isolate pt-20">
       <NavBar />
-        <section id='/' className="w-full relative mt-6">
-          <SwiperSlides imgProyects={imgHome} />
-        </section>
+      <section id='/' className="relative bg-cover py-60 flex flex-col justify-center items-center w-full mt-4 overlay px-8 lg:px-10">
+        <div className="flex flex-col justify-center items-center gap-4">
+          <span className='lg:text-6xl text-4xl text-white text-center font-bold text-montserrat z-10'>Ideas que generan proyectos</span>
+          <Description text="The CAES Industrial Park developed by Idea Central is the developer's largest and most ambitious project, which will become the logistics ecosystem of Carretera a El Salvador." color="#fff"/>
+          <ButtonDark text="Conoce más"/>
+        </div>
+      </section>
         <div className="px-8 lg:px-10">
-          <section id='/projects' className="w-full relative py-10">
+          <section id='/projects' className="w-full relative py-10 flex flex-col justify-center items-center">
             <Tittle title="Proyectos" center color={"#545c5c"}/>
-            <div className="w-full flex flex-col lg:flex-row flex-wrap justify-center items-center">
+            <Description text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam" color="#545c5c"/>
+            <div className="w-full flex flex-col lg:flex-row flex-wrap justify-center items-center my-10">
             {
               projects.map((project) => (
                 <ProjectItem key={project.title} project={project} />
               ))
             }
             </div>
+            <ButtonDark text="Ver todos los proyectos"/>
           </section>
           <section id='/about' className="w-full relative py-10">
             <div className="w-full flex flex-col justify-center text-center items-center">

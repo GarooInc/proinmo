@@ -28,8 +28,7 @@ module.exports = {
       fontFamily: {
         satoshi: ['Satoshi', 'sans-serif'],
         inter: ['inter', 'sans-serif'],
-        strech: ['Strech', 'sans-serif'],
-        hoey : ['hooey', 'sans-serif'],
+        montserrat: ['Montserrat', 'sans-serif'],
       },
       colors: {
         'kaqui': '#bc9c6c',
