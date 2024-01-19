@@ -1,23 +1,25 @@
 import React from 'react'
 import Image from 'next/image'
+import { FiFacebook, FiYoutube } from "react-icons/fi";
+
 
 const Footer = () => {
   return (
-    <div className="w-full bg-white text-white h-64 flex flex-col justify-center items-center gap-4 py-8">
-        <div className="flex flex-col w-full">
-            <ul className="flex flex-col md:flex-row justify-evenly items-center gap-4 py-4">
-                <a href="https://garooinc.com/"><li className="font-inter text-gray-600 text-sm">© 2023 GarooInc</li></a>
-                <li className="font-inter text-gray-600 text-sm">Términos y condiciones</li>
-                <li className="font-inter text-gray-600 text-sm">Política de privacidad</li>
-            </ul>
-            <div className="flex justify-center items-center p-8">
+    <div className="w-full bg-dark-grayish text-white lg:h-40 h-60 flex flex-col justify-center items-center gap-4 py-8">
+        <div className="flex lg:flex-row flex-col w-full items-center justify-between px-8 xs:gap-8">
+          <div className="flex justify-center items-center">
             <Image
-                src="/assets/images/biglogo01.png"
+                src="/assets/images/logo.png"
                 alt="logo"
                 width={100}
                 height={100}
                 className='object-cover'
             />
+            </div>
+            <a href="https://garooinc.com/"><span className="font-montserrat text-white text-sm">© 2023 GarooInc</span></a>
+            <div className="flex flex-row gap-4">
+              <a href="https://www.facebook.com/"><FiFacebook className="text-white text-2xl"/></a>
+              <a href="https://www.youtube.com/"><FiYoutube className="text-white text-2xl"/></a>
             </div>
         </div>
     </div>

@@ -35,6 +35,7 @@ module.exports = {
         "light-kaqui": "#ece4d6",
         "grayish": "#545c5c",
         "light-grayish": "#5c5c5c",
+        "dark-grayish": "#333331",
       },
     },
   },
