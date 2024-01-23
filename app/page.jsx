@@ -15,7 +15,7 @@ const PrincipalPage = () => {
       <section id='/' className="relative bg-cover py-60 flex flex-col justify-center items-center w-full mt-4 overlay px-8 lg:px-10">
         <div className="flex flex-col justify-center items-center gap-4">
           <span className='lg:text-6xl text-4xl text-white text-center font-bold font-montserrat z-10'>Ideas que generan proyectos</span>
-          <Description text="The CAES Industrial Park developed by Idea Central is the developer's largest and most ambitious project, which will become the logistics ecosystem of Carretera a El Salvador." color="#fff"/>
+          <img className="w-32 h-32 z-10" src="assets/images/biglogo01.png" alt="logo"/>
           <ButtonDark text="Conoce más" href={'https://proinmo502.com/'} />
         </div>
       </section>
