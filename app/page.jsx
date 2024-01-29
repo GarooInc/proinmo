@@ -42,7 +42,6 @@ const PrincipalPage = () => {
               <p className=" text-lg lg:text-xl text-center text-grayish font-montserrat w-4/5 lg:w-2/3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
               <div className="w-full flex flex-col lg:flex-row justify-center items-center gap-4">
                 <ContactItem name="Clara Irving Bell" number="50005536" mail="clara@proinmo502.com" img="assets/images/clara.png"/>
-                <ContactItem name="Catherine Irving Bell" number="30152080" mail="catherine@proinmo502.com " img="assets/images/clara.png"/>
               </div>
             </div>
           </section>

@@ -9,7 +9,7 @@ const ContactItem = ({name, number, mail, img}) => {
         <div className="flex flex-col items-center justify-center">
                 <div className="flex flex-col items-center justify-between gap-4">
                     <div className='flex flex-row items-center justify-between w-full gap-4'>
-                      <img className="w-12 h-12 rounded-full" src={img} alt="contacto"/>
+                      <img className="w-14 h-14 rounded-full object-cover" src={img} alt="contacto"/>
                       <h1 className="font-montserrat text-xl lg:text-2xl font-bold text-center mt-4 mb-2">{name}</h1>
                     </div>
                     <div className="w-full flex flex-row items-start justify-start ">
