@@ -14,7 +14,7 @@ const PrincipalPage = () => {
       <NavBar />
       <section id='/' className="relative bg-cover py-60 flex flex-col justify-center items-center w-full mt-4 overlay px-8 lg:px-10">
         <div className="flex flex-col justify-center items-center gap-4">
-          <span className='lg:text-6xl text-4xl text-white text-center font-bold font-montserrat z-10'>Ideas que generan proyectos</span>
+          <span className='lg:text-6xl text-4xl text-white text-center font-bold font-montserrat z-10'>Espacios Logísticos e Industriales</span>
           <img className="w-32 h-32 z-10" src="assets/images/biglogo01.png" alt="logo"/>
           <ButtonDark text="Conoce más" href={'https://proinmo502.com/'} />
         </div>
@@ -42,6 +42,7 @@ const PrincipalPage = () => {
               <Tittle title="Con Proinmo, tus sueños se convierten en ideas" center color={"#545c5c"}/>
               <div className="w-full flex flex-col lg:flex-row justify-center items-center gap-4">
                 <ContactItem name="Clara Irving Bell" number="50005536" mail="clara@proinmo502.com" img="assets/images/clara.png"/>
+                <ContactItem name="Catherine Irving Bell" img="assets/images/catherine.png" />
               </div>
             </div>
           </section>

@@ -11,7 +11,7 @@ const ProjectItem = ({ project }) => {
     };
 
     return (
-        <div className="project_card lg:w-1/4 m-2 h-66 relative w-full">
+        <button onClick={handleMoreClick} className="project_card lg:w-1/4 m-2 h-66 relative w-full">
             <div className="flex flex-col items-center justify-between">
                 <img src={project.image} alt={project.title} className="w-full h-60 object-cover" />
                 <div className="flex items-center justify-between w-full p-4">
@@ -19,7 +19,7 @@ const ProjectItem = ({ project }) => {
                     <IoIosArrowForward className="text-2xl text-white cursor-pointer" onClick={handleMoreClick} />
                 </div>
             </div>
-        </div>
+        </button>
     )
 }
 

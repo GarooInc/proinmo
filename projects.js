@@ -2,10 +2,78 @@
 const projects = [
     {
         id : "1",
-        title: "Caes parque Industrial",
+        title: "Parque Industrial CAES Km. 27",
         description: "Ecosistema logístico de carretera al salvador.",
         image: "/assets/imagesHome/1.png",
-        longdescription :`El Parque Industrial CAES desarrollado por Idea Central, es el proyecto más grande y ambicioso de la desarrolladora, el cual se convertirá en el ecosistema logístico de Carretera a El Salvador.`,
+        longdescription :`
+        Parque Industrial CAES es uno de los proyectos mas ambiciosos del sector. Siendo un parque i con una área de 40 manzanas exclusivamente para desarrollo industrial.
+        Esta ubicado a solo 3Kms de la carretera nueva VAS, que le permite dirigirse a la costa Sur, sin tener que entrar a la ciudad. 
+        Entre varias cualidades que tiene el proyecto, nombramos algunas:
+        - Altos estándares de seguridad con garitas, rondines, CCTV, etc.
+        - Calles anchas alrededor de todo el proyecto para fácil movilidad de transporte pesado y trailers
+        - Variedad de metrajes de bodegas desde 350m2 hasta 6,000+m2
+        - Ingreso para Visitas  e ingreso secundario para propietarios
+        `,
+        metraje : [
+            {
+                title : "Distrito A",
+                metraje : "668m2",
+                bodegas : "13",
+                entrega : "Enero 2025",
+                opcion : "Opcion con y sin anden de descarga"
+
+            },
+            {
+                title : "Distrito B",
+                metraje : "668m2",
+                bodegas : "13",
+                entrega : "Febrero 2025",
+                opcion : "Opcion con y sin anden de descarga"
+            },
+            {
+                title : "Distrito C",
+                metraje : "471m2",
+                bodegas : "19",
+                entrega : "Marzo 2025",
+                opcion : "Opcion con y sin anden de descarga"
+            },
+            {
+                title : "Distrito D",
+                metraje : "517m2",
+                bodegas : "22",
+                entrega : "Abril 2025",
+                opcion : "Opcion con y sin anden de descarga"
+            },
+            {
+                title : "Distrito E",
+                metraje : "398m2",
+                bodegas : "28",
+                entrega : "Mayo 2025",
+                opcion : "Opcion con y sin anden de descarga"
+            },
+            {
+                title : "Distrito F",
+                metraje : "448m2",
+                bodegas : "28",
+                entrega : "Agosto 2025",
+                opcion : "Opcion con y sin anden de descarga"
+
+            },
+            {
+                title : "Distrito G",
+                metraje : "548m2",
+                bodegas : "15",
+                entrega : "Octubre 2025",
+                opcion : "Bodegas con anden de descarga"
+            },
+            {
+                title : "Distrito H",
+                metraje : "785m2-2,700m2",
+                bodegas : "7",
+                entrega : "Julio 2025",
+                opcion : "Bodegas con anden de descarga, garita privada, área de circulación privada"
+            }
+        ],
         folder : "1"
     },
     {
@@ -115,10 +183,38 @@ const projects = [
     },
     {
         id : "15",
-        title: "Tunas fase 5,6 y 7",
+        title: "Industrial Las Tunas 5, 6 y 7",
         description: "Complejo de oficinas de alta tecnología.",
         image: "/assets/imagesHome/15.png",
-        longdescription :``,
+        longdescription :`
+        Este proyecto esta en una de las ubicaciones mas cotizadas del municipio de Guatemala.
+        El Naranjo, Mixco tiene excelentes accesos hacia el interior del país.
+        Cabe mencionar que esta ubicado dentro de un parque industrial con altos estándares de seguridad. Contará con doble garita de seguridad, CCTV, seguridad 24 horas y mucho mas. 
+        `,
+        metraje : [
+            {
+                title : "Tunas 5",
+                metraje : "643m2-1,207m2",
+                bodegas : "12",
+                entrega : "Agosto 2025",
+                opcion : "Opcion con y sin anden de descarga"
+
+            },
+            {
+                title : "Tunas 6",
+                metraje : "643m2-721m2",
+                bodegas : "13",
+                entrega : "Abril 2025",
+                opcion : "Opcion con y sin anden de descarga"
+            },
+            {
+                title : "Tunas 7",
+                metraje : "504m2-1015m2",
+                bodegas : "13",
+                entrega : "Junio 2025",
+                opcion : "Opcion con y sin anden de descarga"
+            },
+        ],
         folder : "15"
     },
 
