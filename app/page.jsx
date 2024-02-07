@@ -39,10 +39,9 @@ const PrincipalPage = () => {
           </section>
           <section id='/contact' className="w-full relative xs:pt-40 sm:p-0">
             <div className="w-full flex flex-col justify-center text-center items-center p-10 gap-4">
-              <Tittle title="Con Proinmo, tus sueños se convierten en ideas" center color={"#545c5c"}/>
               <div className="w-full flex flex-col lg:flex-row justify-center items-center gap-4">
                 <ContactItem name="Clara Irving Bell" number="50005536" mail="clara@proinmo502.com" img="assets/images/clara.png"/>
-                <ContactItem name="Catherine Irving Bell" img="assets/images/catherine.png" />
+                <ContactItem name="Catherine Irving Bell" img="assets/images/catherine.png" number="30152080"/>
               </div>
             </div>
           </section>
