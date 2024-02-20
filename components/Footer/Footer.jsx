@@ -1,5 +1,4 @@
 import React from 'react'
-import Image from 'next/image'
 import { FiFacebook, FiYoutube } from "react-icons/fi";
 
 
@@ -8,7 +7,7 @@ const Footer = () => {
     <div className="w-full bg-dark-grayish text-white lg:h-40 h-60 flex flex-col justify-center items-center gap-4 py-8">
         <div className="flex lg:flex-row flex-col w-full items-center justify-between px-8 xs:gap-8">
           <div className="flex justify-center items-center">
-            <Image
+            <img
                 src="/assets/images/logo.png"
                 alt="logo"
                 width={100}

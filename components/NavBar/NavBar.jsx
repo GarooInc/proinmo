@@ -3,7 +3,6 @@ import { useState } from 'react'
 import { Dialog } from '@headlessui/react'
 import { Bars3BottomRightIcon, Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import { Link } from "react-scroll"
-import Image from 'next/image'
 
 
 const navigation = [

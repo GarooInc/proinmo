@@ -1,4 +1,3 @@
-import Image from "next/image";
 import FullProjects from "@/components/FullProjects/FullProjects";
 import Tittle from "@/components/Tittle/Tittle";
 import ContactItem from "@/components/ContactItem/ContactItem";
