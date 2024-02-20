@@ -5,7 +5,7 @@ import { IoMdMailOpen } from "react-icons/io";
 
 const ContactItem = ({name, number, mail, img}) => {
   return (
-    <div className="lg:w-1/3 w-full mt-4  shadow-lg py-8 px-8 border-b-4 border-kaqui h-48">
+    <div className="lg:w-1/2 w-full mt-4 lg:mx-10  shadow-lg p-4 border-b-4 border-kaqui h-48">
         <div className="flex flex-col items-center justify-center">
                 <div className="flex flex-col items-center justify-between gap-4">
                     <div className='flex flex-row items-center justify-between w-full gap-4'>

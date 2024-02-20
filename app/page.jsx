@@ -25,7 +25,7 @@ const PrincipalPage = () => {
               <FullProjects projects={projects} />
             </div>
           </section>
-          <section id='/about' className="w-full relative pt-10 h-screen">
+          <section id='/about' className="w-full relative pt-10 lg:pb-20 xs:h-screen lg:h-full">
           <img className="w-full lg:h-[600px] h-[400px] object-cover brightness-50" src="assets/images/about.png" alt="about"/>
             <div className="w-full flex flex-col justify-center text-center items-center px-8 lg:px-10">
               <div className="bg-white sm:w-3/5 lg:w-3/5 xs:w-auto xs:mx-6 flex flex-col justify-start items-start shadow-lg lg:px-10 px-6 py-20 lg:py-28 absolute lg:top-1/4 top-40">
@@ -36,11 +36,11 @@ const PrincipalPage = () => {
               </div>
             </div>
           </section>
-          <section id='/contact' className="w-full relative xs:pt-40 sm:p-0">
+          <section id='/contact' className="w-full relative xs:pt-20 sm:p-0 lg:mt-20 xl:p-0 top-20">
             <div className="w-full flex flex-col justify-center text-center items-center p-10 gap-4">
               <div className="w-full flex flex-col lg:flex-row justify-center items-center gap-4">
-                <ContactItem name="Clara Irving Bell" number="50005536" mail="clara@proinmo502.com" img="assets/images/clara.png"/>
-                <ContactItem name="Catherine Irving Bell" img="assets/images/catherine.png" number="30152080"/>
+                <ContactItem name="Clara Irving Bell" number="+(502) 5000-5536" mail="clara@proinmo502.com" img="assets/images/clara.png"/>
+                <ContactItem name="Catherine Irving Bell" img="assets/images/catherine.png" number="+(502) 3015-2080" mail="catherine@proinmo502.com"/>
               </div>
             </div>
           </section>
