@@ -5,7 +5,7 @@ import PocketBase from 'pocketbase'
 
 const BlogPage = ({params}) => {
     const [post , setPost] = useState('')
-    const pb = new PocketBase('http://3.133.139.104/proinmo')
+    const pb = new PocketBase('https://dev.garooinc.com/proinmo')
     pb.autoCancellation(false)
 
     useEffect(() => {
