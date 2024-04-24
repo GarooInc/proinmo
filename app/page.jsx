@@ -36,18 +36,19 @@ const PrincipalPage = () => {
               </div>
             </div>
           </section>
-          <section id='/contact' className="w-full relative xs:pt-10 sm:p-0 lg:mt-20 xl:p-0 top-20">
+          <section id='/blog' className=" w-full relative sm:p-0 lg:mt-18 xl:p-0 top-20">
+            <div className="w-full flex flex-col justify-center text-center items-center p-10 gap-4">
+              <Tittle title="Nuestro Blog" center color={"#545c5c"}/>
+              <Blog />
+            </div>
+          </section>
+          <section id='/contact' className="w-full relative mt-20">
+            <Tittle title="Contacto" center color={"#545c5c"}/>
             <div className="w-full flex flex-col justify-center text-center items-center p-10 gap-4">
               <div className="w-full flex flex-col lg:flex-row justify-center items-center gap-4">
                 <ContactItem name="Clara Irving Bell" number="+(502) 5000-5536" mail="clara@proinmo502.com" img="assets/images/clara.png"/>
                 <ContactItem name="Catherine Irving Bell" img="assets/images/catherine.png" number="+(502) 3015-2080" mail="catherine@proinmo502.com"/>
               </div>
-            </div>
-          </section>
-          <section id='/blog' className="w-full relative mt-10">
-            <div className="w-full flex flex-col justify-center text-center items-center p-10 gap-4">
-              <Tittle title="Nuestro Blog" center color={"#545c5c"}/>
-              <Blog />
             </div>
           </section>
     </div>

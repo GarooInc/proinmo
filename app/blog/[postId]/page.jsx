@@ -25,8 +25,8 @@ const BlogPage = ({params}) => {
     <div className='flex flex-col'>
       <NavBarSecond />
       <div className="w-full flex flex-col justify-center items-center gap-4 p-4">
-            <div className="flex flex-col w-full h-full mx-auto pt-20 lg:pt-40 px-10 ">
-                <h1 className="text-xl lg:text-2xl font-bold font-montserrat text-center">{post.title}</h1>
+            <div className="flex flex-col w-full h-full mx-auto pt-20 lg:pt-40 lg:px-10 px-8 ">
+                <h1 className="text-lg lg:text-xl font-bold font-montserrat text-start lg:text-center">{post.title}</h1>
                 <div className="text-grayish text-sm lg:text-base font-montserrat blog-content"  dangerouslySetInnerHTML={{ __html: post.post }}></div>
             </div>
         </div>

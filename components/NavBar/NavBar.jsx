@@ -8,8 +8,8 @@ import { Link } from "react-scroll"
 const navigation = [
   { name: ' Proyectos', href: '/projects' },
   { name: 'Quiénes somos', href: '/about' },
-  { name: 'Contacto', href: '/contact' },
   { name: 'Nuestro blog', href: '/blog' },
+  { name: 'Contacto', href: '/contact' },
 ]
 
 const NavBar = () => {
