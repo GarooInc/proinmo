@@ -36,7 +36,7 @@ const PrincipalPage = () => {
               </div>
             </div>
           </section>
-          <section id='/blog' className=" w-full relative xs:pt-10 sm:p-0 lg:mt-18 xl:p-0 top-20">
+          <section id='/blog' className=" w-full relative xs:pt-12 sm:p-0 lg:mt-18 xl:p-0 top-20">
             <div className="w-full flex flex-col justify-center text-center items-center p-10 gap-4">
               <Tittle title="Nuestro Blog" center color={"#545c5c"}/>
               <Blog />
