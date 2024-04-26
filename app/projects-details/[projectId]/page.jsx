@@ -9,7 +9,6 @@ const ProjectDetails = ({ params }) => {
 
 
   const project = projects.find(p => p.id === params.projectId)
-  console.log(params.projectId)
 
   const fetchData = async () => {
       const response = await fetch(`https://proinmo-garoo.koyeb.app/list/${params.projectId}`);

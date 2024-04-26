@@ -11,10 +11,12 @@ const BlogPage = ({params}) => {
     const pb = new PocketBase('https://dev.garooinc.com/proinmo')
     pb.autoCancellation(false)
 
+    const current = params.postId.split('_')[1]
+
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const record = await pb.collection('Blog').getOne(params.postId)
+                const record = await pb.collection('Blog').getOne(current)
                 setPost(record)
             } catch (error) {
                 console.error("Error fetching data: ", error);

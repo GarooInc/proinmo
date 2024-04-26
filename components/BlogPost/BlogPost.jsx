@@ -6,7 +6,7 @@ const BlogPost = ({ post }) => {
     const router = useRouter()
 
     const handleReadMore = () => {
-        router.push('/blog/' + post.id)
+        router.push('/blog/' + post.title.replace(/\s/g, "-") + '_'+ post.id)
     }
 
   return (
