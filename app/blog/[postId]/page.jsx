@@ -30,7 +30,14 @@ const BlogPage = ({params}) => {
         return `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(url)}&title=${encodeURIComponent(title)}`;
     }
 
-    const postUrl = `https://www.proinmo502.com/blog/${params.postId}`;
+    const postUrl = `https://www.proinmo502.com/blog/${params.postId}`
+
+    useEffect(() => {
+        if (post.imgbanner) {
+            const imageUrl = `https://dev.garooinc.com/proinmo/api/files/${post.collectionId}/${post.id}/${post.imgbanner}?token=`
+            document.querySelector('meta[property="og:image"]').setAttribute("content", imageUrl)
+        }
+    }, [post])    
 
 
   return (
