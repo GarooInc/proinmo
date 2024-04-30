@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react'
 import NavBarSecond from '@/components/NavBarSecond/NavBarSecond'
 import PocketBase from 'pocketbase'
 import { FaLinkedinIn } from "react-icons/fa"
+import MetaTags from '@/components/MetaTags/MetaTags'
 
 
 
@@ -42,6 +43,7 @@ const BlogPage = ({params}) => {
 
   return (
     <div className='flex flex-col'>
+        <MetaTags title={post.title} description={post.title} image={post.imgbanner} />
       <NavBarSecond />
       <div className="w-full flex flex-col justify-center items-center gap-4 p-4">
             <div className="flex flex-col w-full h-full mx-auto pt-20 lg:pt-40 px-8 lg:px-40 ">

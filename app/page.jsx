@@ -5,11 +5,13 @@ import NavBar from "@/components/NavBar/NavBar";
 import ButtonDark from "@/components/ButtonDark/ButtonDark";
 import projects from "@/projects";
 import Blog from "@/components/Blog/Blog";
+import MetaTags from "@/components/MetaTags/MetaTags";
 
 const PrincipalPage = () => {
 
   return (
     <div className="w-full isolate pt-20">
+      <MetaTags title={"Proinmo"} description={"Empresa especializada en la comercialización de propiedades y desarrollos industriales que impulsan el crecimiento de las empresas en Guatemala."} image={"/assets/images/biglogo03.png"} />
       <NavBar />
       <section id='/' className="relative bg-cover py-60 flex flex-col justify-center items-center w-full mt-4 overlay px-8 lg:px-10">
         <div className="flex flex-col justify-center items-center gap-4">

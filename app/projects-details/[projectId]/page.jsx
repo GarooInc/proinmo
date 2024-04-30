@@ -3,6 +3,7 @@ import React from 'react'
 import projects from '@/projects'
 import { useEffect, useState } from 'react';
 import NavBarSecond from '@/components/NavBarSecond/NavBarSecond';
+import MetaTags from '@/components/MetaTags/MetaTags';
 
 const ProjectDetails = ({ params }) => {
   const [data, setData] = useState([]);
@@ -26,6 +27,7 @@ const ProjectDetails = ({ params }) => {
 
   return (
     <div className='flex flex-col'>
+    <MetaTags title={project.title} description={project.title} image={data[0]} />
       <NavBarSecond />
     { data && (
       <div className='flex flex-col justify-center w-full px-8 lg:px-10 pt-20 lg:pt-40'>
